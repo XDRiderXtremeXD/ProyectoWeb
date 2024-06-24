@@ -1,0 +1,105 @@
+/* ------------------------------- */
+
+* {
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    box-sizing: border-box;
+}
+
+/*NAV LOGO-------------------------*/
+
+.nav-content {
+    width: 100%;
+    margin-left: 0;
+}
+
+
+#menu > li{
+    position: relative;
+    display: inline-block;
+    width: 150px;
+
+}
+
+#menu > li > a{
+    display: block;
+    padding: 10px;
+}
+
+
+#menu li a:hover{
+    color: #CE7D35;
+    transition: all .3s;
+}
+
+
+#menu li:hover #submenu{
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+}
+
+#submenu{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+    border-bottom: #125570 solid;
+    border-left: #125570 solid;
+    border-right: #125570 solid;
+}
+
+#submenu li a{
+    display: block;
+    padding: 15px;
+    color: #125570 ;
+    text-decoration: none;
+}
+
+
+.nav-logo {
+    display: flex;
+    align-items: end;
+}
+
+.nav-logo h2 {
+    color: #125570;
+    font-size: x-large;
+}
+
+.nav-logo img {
+    height: 140px;
+    margin-right: 0;
+}
+
+.nav-logo a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-logo ul {
+    background-color: #125570;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.nav-logo li {
+    margin: 5;
+    text-align: center;
+}
+
+.nav-logo .seleccionado {
+    color: rgb(0, 255, 149);
+}
+
+#submenu li .seleccionado{
+    color: rgb(0, 255, 149);
+}
+

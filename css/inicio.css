@@ -1,0 +1,35 @@
+* {
+    margin: 10px;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 170px);  
+    background-color: #F0F0F0;
+    margin-top: 170px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+header h1{
+    font-size: x-large;
+    color: #125570;
+}
+
+header #banner{
+    border: 2px solid #125570;
+}
+
+#banner{
+    width: 100%;
+}

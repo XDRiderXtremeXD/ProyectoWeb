@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="css/contactos.css">
+</head>
+
+<body>
+    <iframe style="position:absolute; 
+    top: 0;
+    left: 0;
+    width: calc(100% - 20px);
+    height: 300px;
+    z-index: 2;" src="navegacion.html" scrolling="no" frameborder="0" name="navegacion"></iframe>
+    <main>
+        <section>
+            <h1>Contacto</h1>
+            <p><strong>Email:</strong> contacto@techservice.com.pe</p>
+            <p><strong>Movil:</strong> 992 318 760</p>
+            <p><strong>Telefono:</strong> (01)254-4156</p>
+            <p><strong>Direccion:</strong> <a
+                    href="https://www.google.com/maps/place/C.+Francisco+Mas%C3%ADas,+Lince+15046/@-12.0902813,-77.0286087,17z/data=!3m1!4b1!4m6!3m5!1s0x9105c863c7f098b3:0x775bd73d20cbfc63!8m2!3d-12.0902866!4d-77.0260284!16s%2Fg%2F1tdgl9x2?entry=ttu"
+                    target="_blank">Calle Masias 135 Urb. Santa Catalina, Lince, Lima</a></p>
+        </section>
+        <iframe class="mapa"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1950.6620512784784!2d-77.02652050142387!3d-12.089933935925416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c863c7f098b3%3A0x775bd73d20cbfc63!2sC.%20Francisco%20Mas%C3%ADas%2C%20Lince%2015046!5e0!3m2!1ses-419!2spe!4v1719170604461!5m2!1ses-419!2spe"
+            width="600" height="450" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </main>
+
+    <section class="mensaje">
+        <h2 style="text-align: center; font-size: x-large;">Contáctanos</h2>
+        <section class="nombresApellidos">
+            <article>
+                <label for="nombres">Nombres</label>
+                <input type="text" id="nombres" name="nombres" />
+            </article>
+            <article>
+                <label for="apellidos">Apellidos</label>
+                <input type="text" id="apellidos" name="apellidos" />
+            </article>
+        </section>
+        <article>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+        </article>
+        <article>
+            <label for="mensaje">Enviar mensaje</label>
+            <textarea style="height: 300px;" name="mensaje" id="mensaje"></textarea>
+        </article>
+
+        <section class="enviar">
+            <button id="botonEnviar" class="button_slide">Enviar</button>
+            <p>¡Gracias por tu mensaje!</p>
+        </section>
+    </section>
+
+    <iframe style="margin-top: auto; height:90px" src="footer.html" scrolling="no" frameborder="0"
+        name="footer"></iframe>
+    <script src="js/contacto.js"></script>
+</body>
+
+</html>
