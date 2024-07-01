@@ -6,7 +6,8 @@
     <title>Inicio</title>
     <link rel="stylesheet" href="css/inicio.css">
 </head>
-<body>
+
+<body onload="carrusel();">
 
     <iframe style="position:absolute; 
     top: 0;
@@ -15,15 +16,18 @@
     height: 300px;
     z-index: 2;"
     src="navegacion.html" scrolling="no" frameborder="0" name="navegacion"></iframe>
+   
     <header>
-        <img id="banner" src="img/banner.png" alt="banner">
+        <!-- <img id="banner" src="img/banner.png" alt="banner"> -->
         <h1>Servicio TI</h1>
+        <img src="img/imgbar/banner1.jpg" alt="marcas" id="banner">
         <p>Somos una empresa líder en la transformación digital empresarial. Especializados en Consultoría TI y Soluciones tecnológicas.
         Más de 100 empresas confían en TECHSERVICE para los servicios de TI</p>
-        <img src="img/marcas.png" alt="marcas">
     </header>
 
-    <iframe style="margin-top: auto; height:90px" src="footer.html" scrolling="no" frameborder="0" name="footer"></iframe>
+    <iframe style="margin-top: auto; height:90px; margin-left: 0;
+    margin-right: 0;" src="footer.html" scrolling="no" frameborder="0" name="footer"></iframe>
 
 </body>
 </html>
+<script src="js/index.js"></script>

@@ -14,7 +14,7 @@ document.getElementById('botonEnviar').addEventListener('click', function(event)
     }
 
     msj="Nombres: "+nombres+"\n"+"Apellidos: "+apellidos+"\n"+
-    "Email: "+email+"\n"+"Mensaje: "+mensaje+"\n"+'El mensaje ha sido enviado, en breves se le respondera, ¡gracias!';
+    "Email: "+email+"\n"+"Mensaje: "+mensaje+"\n"+'El mensaje ha sido enviado, en breves se le responderá, ¡gracias!';
 
     alert(msj);
 });

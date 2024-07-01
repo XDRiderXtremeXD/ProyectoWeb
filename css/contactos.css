@@ -46,9 +46,14 @@ strong {
     border-radius: 5%;
     color: white;
     font-weight: bolder;
-    margin-left: 10vh;
-    margin-right: 10vh;
+    /* margin-left: 10vh;
+    margin-right: 10vh; */
     padding: 10px;
+    height: 600px;
+}
+
+#mensaje{
+    height: 200px;
 }
 
 .mensaje .nombresApellidos {
